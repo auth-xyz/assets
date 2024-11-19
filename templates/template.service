@@ -1,0 +1,10 @@
+[Unit]
+Description=Runs script when {flag} is triggered
+After=multi-user.target
+
+[Service]
+ExecStart={command} {script}
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
