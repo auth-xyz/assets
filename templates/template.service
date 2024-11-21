@@ -3,8 +3,7 @@ Description={description}
 After=multi-user.target
 
 [Service]
-ExecStart= {command}  {script} 
-
+ExecStart= {command}  {script}
 Restart=always
 
 [Install]
